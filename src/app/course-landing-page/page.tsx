@@ -11,7 +11,7 @@ import FlowChart from "./FlowChart";
 const Page = () => {
   return (
     <div className="container">
-      <div className="w-full flex flex-col pt-[85px] overflow-hidden relative">
+      <div className="w-full flex flex-col relative pb-[100px]">
         <HeroSection />
         <Gains />
         <SyllabusCurriculum />

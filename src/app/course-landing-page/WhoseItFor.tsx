@@ -39,7 +39,7 @@ const WhoseItFor = () => {
   ];
   return (
     <div className="w-full bg-white py-[15%] md:p-[5%] flex flex-col gap-5 items-center">
-      <p className="text-3xl lg:text-4xl xl:text-5xl font-semibold">
+      <p className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-center">
         Who is this workshop for?
       </p>
       <p className="text-xs md:text-sm lg:text-base xl:text-lg text-gray-600 text-center md:w-[50%]">
