@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Page from "./course-landing-page/page";
 
 export default function Home() {
