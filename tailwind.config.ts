@@ -8,9 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        belano: ["Belanosima", "sans - serif"],
+      },
+      screens: {
+        mm: "550px",
+        xlg: "850px",
       },
     },
   },
