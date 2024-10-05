@@ -2,7 +2,7 @@ import React from "react";
 
 const ElementaSchool = () => {
   return (
-    <div className="w-full p-[5%] md:p-0 md:px-[5%] flex flex-col md:grid grid-cols-3 gap-4 bg-gradient-to-br from-purple-100 via-orange-100 to-purple-100 pt-8">
+    <div className="w-full p-[5%] md:p-0 md:px-[5%] flex flex-col md:grid grid-cols-3 gap-4 bg-gradient-to-br from-purple-100 via-orange-100 to-purple-100 pt-8 pb-[10%] rounded-2xl">
       <div className="w-full h-full flex flex-col justify-center items-center md:items-start gap-5">
         <p className="text-3xl lg:text-3xl xl:text-4xl font-semibold text-center md:text-start">
           What Do They Say About Elementa Academy?

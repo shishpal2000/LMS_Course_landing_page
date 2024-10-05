@@ -8,7 +8,7 @@ import icon3 from "../../../public/SVG (2).png";
 
 const FlowChart = () => {
   return (
-    <div className="w-full flex flex-col p-[5%] gap-10 bg-gradient-to-br from-purple-100 via-orange-100 to-purple-100 items-center pt-8">
+    <div className="w-full flex flex-col p-[5%] gap-10 bg-gradient-to-br from-purple-100 via-orange-100 to-purple-100 items-center pt-8 pb-[10%] rounded-2xl">
       <p className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-center md:text-start mt-2">
         How does our UI/UX course work?
       </p>

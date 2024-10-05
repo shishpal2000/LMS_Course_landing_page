@@ -14,7 +14,7 @@ const HeroSection = () => {
         alt=""
         className="w-full h-96 md:h-full object-cover"
       />
-      <div className="w-full h-full absolute top-0 left-0 flex">
+      <div className="w-full h-full absolute top-0 left-0 flex pb-[10%]">
         <div className="w-full md:w-[56%] flex flex-col px-[5%] py-[2%] items-center md:items-start pt-[7%] mm:pt-[5%] md:pt-0 justify-center">
           <Image
             src={logo}
