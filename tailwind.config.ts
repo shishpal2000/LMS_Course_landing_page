@@ -15,6 +15,9 @@ const config: Config = {
         mm: "550px",
         xlg: "850px",
       },
+      colors: {
+        primary: "#525FE1",
+      },
     },
   },
   plugins: [],

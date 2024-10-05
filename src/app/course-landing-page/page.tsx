@@ -7,17 +7,25 @@ import FAQs from "./FAQs";
 import ElementaSchool from "./ElementaSchool";
 import Highlights from "./Highlights";
 import FlowChart from "./FlowChart";
+import GetCertified from "../components/GetCerftified/GetCertified";
+import Tools from "../components/Tools/Tools";
+import Keyfeatures from "./Keyfeatures";
+import Skills from "./Skills";
 
 const Page = () => {
   return (
     <div className="container">
       <div className="w-full flex flex-col relative pb-[100px]">
         <HeroSection />
+        <Highlights />
+        <Keyfeatures/>
+        <Skills/>
         <Gains />
         <SyllabusCurriculum />
         <WhoseItFor />
         <FlowChart />
-        <Highlights />
+        <GetCertified />
+        <Tools />
         <ElementaSchool />
         <FAQs />
         <div className="fixed bottom-0 left-0 w-full h-fit bg-gradient-to-tr from-purple-100 via-orange-100 to-purple-100 flex md:hidden p-[5%] items-center">

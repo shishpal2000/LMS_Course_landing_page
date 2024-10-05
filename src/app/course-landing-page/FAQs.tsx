@@ -114,7 +114,7 @@ const FAQs = () => {
             ASK YOUR QUESTION
           </p>
           <hr />
-          <div className="w-full flex flex-col">
+          <div className="w-full flex flex-col gap-1">
             <p className="text-xs lg:text-sm xl:text-base">Name</p>
             <input
               type="text"
@@ -124,7 +124,7 @@ const FAQs = () => {
               className="p-3 text-[10px] lg:text-xs xl:text-sm"
             />
           </div>
-          <div className="w-full flex flex-col">
+          <div className="w-full flex flex-col gap-1">
             <p className="text-xs lg:text-xs xl:text-sm">Email</p>
             <input
               type="text"
@@ -134,7 +134,7 @@ const FAQs = () => {
               className="p-3 text-[10px] lg:text-xs xl:text-sm"
             />
           </div>
-          <div className="w-full flex flex-col">
+          <div className="w-full flex flex-col gap-1">
             <p className="text-xs lg:text-xs xl:text-sm">Mobile Number</p>
             <input
               type="text"
@@ -144,6 +144,11 @@ const FAQs = () => {
               className="p-3 text-[10px] lg:text-xs xl:text-sm"
             />
           </div>
+          <p className="text-sm md:text-base text-gray-400">
+            By clicking Submit, I authorize Vstudyonline Team to Call me,
+            receive SMS/Messages about its products & offers. This consent will
+            override any registration for DNC/ NDNC
+          </p>
           {/* <div className="w-full flex flex-col">
             <p className="text-xs lg:text-xs xl:text-sm">Question</p>
             <textarea
