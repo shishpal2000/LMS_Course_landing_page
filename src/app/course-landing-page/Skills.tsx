@@ -3,7 +3,7 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="container">
-      <div className="w-full flex flex-col items-center gap-5 py-[10%]">
+      <div className="w-full flex flex-col items-center gap-5 ">
         <p className="text-4xl md:text-5xl lg:text-6xl font-semibold">
           Skills you learn
         </p>

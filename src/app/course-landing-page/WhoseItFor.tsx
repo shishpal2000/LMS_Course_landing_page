@@ -38,23 +38,25 @@ const WhoseItFor = () => {
     ],
   ];
   return (
-    <div className="w-full bg-white py-[15%] md:p-[5%] flex flex-col gap-5 items-center">
-      <p className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-center">
-        Who is this workshop for?
-      </p>
-      <p className="text-xs md:text-sm lg:text-base xl:text-lg text-gray-600 text-center md:w-[50%]">
-        Skilline is one powerful online software suite that combines all the
-        tools needed to run a successful school or office.
-      </p>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-x-8 lg:gap-x-10 xl:gap-x-12 lg:gap-y-16 xl:gap-y-[72px] mt-5">
-        {reasons.map((reason, index) => (
-          <ReasonCard
-            heading={reason[1]}
-            info={reason[2]}
-            icon={reason[0]}
-            key={index}
-          />
-        ))}
+    <div className="container">
+      <div className="w-full bg-white flex flex-col gap-5 items-center">
+        <p className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-center">
+          Who is this workshop for?
+        </p>
+        <p className="text-xs md:text-sm lg:text-base xl:text-lg text-gray-600 text-center md:w-[50%]">
+          Skilline is one powerful online software suite that combines all the
+          tools needed to run a successful school or office.
+        </p>
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-x-8 lg:gap-x-10 xl:gap-x-12 lg:gap-y-16 xl:gap-y-[72px] mt-5">
+          {reasons.map((reason, index) => (
+            <ReasonCard
+              heading={reason[1]}
+              info={reason[2]}
+              icon={reason[0]}
+              key={index}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

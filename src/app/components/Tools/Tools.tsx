@@ -13,7 +13,7 @@ import tool9 from "../../../../public/image(2)copy9.png";
 const Tools = () => {
   return (
     <div className="container">
-      <div className="w-full flex flex-col gap-5 py-[10%] items-center">
+      <div className="w-full flex flex-col gap-5 items-center">
         <p className="text-4xl md:text-5xl lg:text-6xl font-semibold">Tools you will learn</p>
         <div className="w-full grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
           <Image src={tool1} alt="" className="w-full object-cover" />

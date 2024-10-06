@@ -8,7 +8,7 @@ import { TbCalendarClock } from "react-icons/tb";
 const Keyfeatures = () => {
   return (
     <div className="container">
-      <div className="w-full flex flex-col gap-5 py-[10%] rounded-lg bg-primary p-[5%] md:p-[2%]">
+      <div className="w-full flex flex-col gap-5 rounded-lg bg-primary px-[5%] py-[10%] md:py-[5%]">
         <div className="w-full h-fit grid grid-cols-1 md:grid-cols-2 gap-5">
           <div className="p-[3%] bg-white bg-opacity-30 rounded-lg flex text-white gap-2">
             <BsUnlock className="w-auto h-full aspect-square" />

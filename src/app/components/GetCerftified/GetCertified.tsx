@@ -7,7 +7,7 @@ import { IoArrowRedoSharp, IoPerson } from "react-icons/io5";
 const GetCertified = () => {
   return (
     <div className="container">
-      <div className="w-full flex flex-col items-center gap-5 py-[10%] md:py-0">
+      <div className="w-full flex flex-col items-center gap-5 ">
         <p className="text-4xl md:text-5xl lg:text-6xl font-semibold">
           Get Certified
         </p>
