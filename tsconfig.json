@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/course-landing-page/WhoseItFor.js", "src/app/course-landing-page/SyllabusCurriculum.js", "src/app/course-landing-page/SyllabusCard.js", "src/app/course-landing-page/Skills.js", "src/app/course-landing-page/page.js", "src/app/course-landing-page/Keyfeatures.js", "src/app/course-landing-page/Highlights.js", "src/app/course-landing-page/HeroSection.js", "src/app/course-landing-page/Gains.js", "src/app/course-landing-page/FlowChart.js", "src/app/course-landing-page/FAQs.js", "src/app/course-landing-page/ElementaSchool.js", "src/app/components/Tools/Tools.js", "src/app/components/GetCerftified/GetCertified.js"],
   "exclude": ["node_modules"]
 }

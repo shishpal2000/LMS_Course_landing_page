@@ -4,8 +4,8 @@ import React, { useState } from "react";
 import { MdOutlineWatchLater } from "react-icons/md";
 import { RxCross2, RxPlus } from "react-icons/rx";
 
-const SyllabusCard = ({ section }: { section: (string | string[][])[] }) => {
-  const [expand, setExpand] = useState<boolean>(false);
+const SyllabusCard = ({ section }) => {
+  const [expand, setExpand] = useState(false);
   return (
     <div className="w-full flex flex-col gap-5 col-span-1 bg-white p-[5%] h-fit rounded-lg">
       <div className="w-full flex justify-between items-center">

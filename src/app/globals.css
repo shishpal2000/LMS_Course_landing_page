@@ -9,6 +9,14 @@
   --foreground: #171717;
 }
 
+.loding-component{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

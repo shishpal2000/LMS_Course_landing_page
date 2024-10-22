@@ -4,10 +4,10 @@ import { GoPlus } from "react-icons/go";
 import { HiMinusSmall } from "react-icons/hi2";
 
 const FAQs = () => {
-  const [name, setName] = useState<string>("");
-  const [email, setEmail] = useState<string>("");
-  const [number, setNumber] = useState<string>("");
-  const [openFAQ, setOpenFAQ] = useState<number>(5);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [number, setNumber] = useState("");
+  const [openFAQ, setOpenFAQ] = useState(5);
 
   return (
     <div className="container">
