@@ -27,7 +27,7 @@ export const removeToken = () => {
   }
 };
 
-export const getData = async ({ endpoint }) => {
+export const getData = async (endpoint) => {
   try {
     const config = {
       headers: {
