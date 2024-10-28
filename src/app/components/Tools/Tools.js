@@ -2,17 +2,17 @@ import Image from "next/image";
 import React from "react";
 
 const Tools = ({ tools }) => {
-  const { title, image } = tools; // Destructure tools data
+  // const { title, image } = tools; // Destructure tools data
 
   return (
     <div className="container">
       <div className="w-full flex flex-col gap-5 items-center">
         <p className="text-4xl md:text-5xl lg:text-6xl font-semibold text-gray-700" >
-          {title || "Tools you will learn"} {/* Use API title or fallback */}
+          {tools?.title || "Tools you will learn"} {/* Use API title or fallback */}
         </p>
         <div className="w-full flex gap-8 flex-wrap justify-center">
-          {image && image.length > 0 ? (
-            image.map((tool, index) => (
+          {tools?.image && tools?.image.length > 0 ? (
+            tools?.image.map((tool, index) => (
               <Image
                 key={index}
                 src={tool.image_icon

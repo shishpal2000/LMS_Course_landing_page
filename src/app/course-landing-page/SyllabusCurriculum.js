@@ -1,8 +1,8 @@
 import React from "react";
 import SyllabusCard from "./SyllabusCard";
 
-const SyllabusCurriculum = ({ syllabus, download_syllabus_link_text, download_syllabus_link }) => {
-  const { title, detailed_description, description } = syllabus;
+const SyllabusCurriculum = ({ syllabus }) => {
+  const { title, detailed_description, description ,download_syllabus_link_text, download_syllabus_link} = syllabus;
 
   return (
     <div className="container">

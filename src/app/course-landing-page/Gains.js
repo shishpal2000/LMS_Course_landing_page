@@ -15,15 +15,15 @@ const Gains = ({ user_learning }) => {
         <div className="w-full flex flex-col items-center gap-8 text-gray-700 ">
           <p className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-center">
             {/* What Do You Gain From <br /> This Program? */}
-            {user_learning.title}
+            {user_learning?.title}
           </p>
           <p className="text-xs md:text-sm lg:text-base xl:text-lg md:w-[60%] lg:w-[50%] text-gray-400 text-center">
             {/* Lorem Ipsum is simply dummy text of the printing and <br />{" "}
             typesetting industry. Lorem Ipsum has been the industry. */}
-            {user_learning.description}
+            {user_learning?.description}
           </p>
           <div className="w-full flex flex-col md:flex-row gap-4 xl:gap-6 2xl:gap-8">
-            {user_learning.points?.map((item, index) => (
+            {user_learning?.points?.map((item, index) => (
               <div
                 key={item._id}
                 className="flex-1 flex flex-col p-6 bg-gray-100 gap-6 w-full"

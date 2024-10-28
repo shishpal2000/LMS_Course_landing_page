@@ -60,16 +60,16 @@ const FAQs = ({faq}) => {
     <div className="container">
       <div className="w-full flex flex-col items-center gap-5">
         <p className="text-gray-700 text-3xl lg:text-4xl xl:text-5xl font-semibold text-center md:text-start">
-          {faq.title}
+          {faq?.title}
         </p>
         <p className="text-xs md:text-sm lg:text-base xl:text-lg text-gray-600 text-center md:w-[50%]">
-          {faq.description}
+          {faq?.description}
         </p>
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5">
   {/* FAQ Section */}
   <div>
-    {faq.content.length > 0 ? (
-      faq.content.map((item, index) => (
+    {faq?.content.length > 0 ? (
+      faq?.content.map((item, index) => (
         <div key={index} className="flex flex-col gap-4 mb-4 text-gray-700"> {/* Adjusted gap and margin */}
           <div className="w-full p-[5%] bg-gray-100 rounded-md flex justify-between">
             <div className="w-[80%]">
@@ -78,7 +78,7 @@ const FAQs = ({faq}) => {
               </p>
               {openFAQ === index && (
                 <p className="text-gray-400 text-[10px] lg:text-xs xl:text-sm">
-                  {item.answer}
+                  {item.answers}
                 </p>
               )}
             </div>

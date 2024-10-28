@@ -1,8 +1,8 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 import { TiStarburst } from "react-icons/ti";
 import { IoArrowRedoSharp, IoPerson } from "react-icons/io5";
-import certificate from "../../../../public/certfifcate.png";
+// import certificate from "../../../../public/certfifcate.png";
 
 const icons = [
   <TiStarburst key="icon-1" />,
@@ -10,7 +10,8 @@ const icons = [
   <IoPerson key="icon-3" />,
 ];
 
-const GetCertified = ({ certification_heading, certification_title, certification_details }) => {
+const GetCertified = ({ certification_heading, certification_title, certification_details ,certificate_image
+}) => {
   return (
     <div className="container">
       <div className="w-full flex flex-col items-center gap-5 md:py-0 text-gray-700">
@@ -22,14 +23,14 @@ const GetCertified = ({ certification_heading, certification_title, certificatio
         </p>
         <div className="w-full flex flex-col gap-5 md:gap-0 md:flex-row-reverse md:justify-between">
           <div className="w-full md:w-[45%]">
-            <Image src={certificate} alt="Certificate" className="w-full object-cover" />
+            <img src={certificate_image} alt="Certificate" className="w-full object-cover" />
           </div>
           <div className="w-full md:w-[45%] flex flex-col gap-3 justify-center">
-            {certification_details.map((detail, index) => {
+            {certification_details?.map((detail, index) => {
               const iconIndex = index % icons.length; // This will repeat the icons
               return (
                 <div key={index} className="w-full flex gap-2">
-                  <div className="w-fit p-1 bg-primary bg-opacity-40 text-primary text-2xl md:text-3xl lg:text-4xl h-fit rounded-md">
+                  <div className="w-fit p-1 bg-blue-700 bg-opacity-40 text-primary text-2xl md:text-3xl lg:text-4xl h-fit rounded-md">
                     {icons[iconIndex]} {/* Use the icon based on the index */}
                   </div>
                   <div className="w-full flex flex-col">

@@ -16,17 +16,17 @@ const Highlights = ({ course_highlights }) => {
         {/* Left Section */}
         <div className="w-full md:w-1/2 flex flex-col gap-4">
           <p className="text-gray-700 text-3xl lg:text-4xl xl:text-5xl font-semibold text-center md:text-start">
-            {course_highlights.title}
+            {course_highlights?.title}
           </p>
           <p className="text-gray-700 font-light text-xs md:text-sm lg:text-base xl:text-lg text-center md:text-start">
-            {course_highlights.description}
+            {course_highlights?.description}
           </p>
           <Image src={banner} alt="Program banner" className="w-full" />
         </div>
 
         {/* Right Section - Highlights */}
         <div className="w-full md:w-1/2 flex flex-col justify-between gap-5 md:gap-0">
-          {course_highlights.points?.map((highlight, index) => (
+          {course_highlights?.points?.map((highlight, index) => (
             <div key={index} className="flex gap-4 items-center">
               <div className="w-16 h-16 rounded-xl bg-[#525FE1] p-3 flex items-center">
                 {/* Use static icons based on index */}

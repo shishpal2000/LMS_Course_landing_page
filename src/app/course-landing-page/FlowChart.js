@@ -14,13 +14,13 @@ const FlowChart = ({ section_working }) => {
     <div className="container">
       <div className="w-full flex flex-col gap-10 bg-gradient-to-br from-purple-100 via-orange-100 to-purple-100 items-center rounded-2xl px-[5%] py-[10%] md:py-[5%]">
         <p className="text-gray-700 text-3xl lg:text-4xl xl:text-5xl font-semibold text-center md:text-start">
-          {section_working.title}
+          {section_working?.title}
         </p>
         <p className="text-gray-700 font-light text-xs md:text-sm lg:text-base xl:text-lg text-center md:w-[60%] lg:w-[50%]">
-          {section_working.sub_title}
+          {section_working?.sub_title}
         </p>
         <div className="w-full flex flex-col items-center md:flex-row">
-          {section_working.description?.map((step, index) => (
+          {section_working?.description?.map((step, index) => (
             <React.Fragment key={index}>
               <div className="w-[75%] md:w-[20%] flex flex-col justify-between items-center">
                 {/* Using static icons based on the index */}

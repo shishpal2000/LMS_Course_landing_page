@@ -30,7 +30,7 @@
     "src/app/course-landing-page/SyllabusCurriculum.js",
     "src/app/course-landing-page/SyllabusCard.js",
     "src/app/course-landing-page/Skills.js",
-    "src/app/course-landing-page/page.js",
+    "src/app/course-landing-page/[slug]/page.js",
     "src/app/course-landing-page/Keyfeatures.js",
     "src/app/course-landing-page/Highlights.js",
     "src/app/course-landing-page/HeroSection.js",

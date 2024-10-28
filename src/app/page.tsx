@@ -1,4 +1,4 @@
-import Page from "./course-landing-page/page";
+import Page from "./course-landing-page/[slug]/page";
 
 export default function Home() {
   return (
