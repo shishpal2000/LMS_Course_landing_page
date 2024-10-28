@@ -49,7 +49,6 @@ const FAQs = ({faq}) => {
         show_notification("Failed to submit query", "error");
       }
     } catch (error) {
-
       show_notification("Error submitting query", error);
     } finally {
       setLoading(false);
@@ -58,7 +57,7 @@ const FAQs = ({faq}) => {
 
   return (
     <div className="container">
-      <div className="w-full flex flex-col items-center gap-5">
+      <div className="w-full flex flex-col items-center gap-5 mb-14">
         <p className="text-gray-700 text-3xl lg:text-4xl xl:text-5xl font-semibold text-center md:text-start">
           {faq?.title}
         </p>
@@ -97,7 +96,6 @@ const FAQs = ({faq}) => {
       <div>No FAQ content available</div>
     )}
   </div>
-
   {/* Formik Form Section */}
   <div>
     <Formik
@@ -151,7 +149,6 @@ const FAQs = ({faq}) => {
             />
             <ErrorMessage name="query" component="div" className="text-red-500 text-xs" />
           </div>
-
           <button
             type="submit"
             disabled={isSubmitting || loading}
@@ -171,8 +168,6 @@ const FAQs = ({faq}) => {
     </Formik>
   </div>
 </div>
-
-
       </div>
     </div>
   );

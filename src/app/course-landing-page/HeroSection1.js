@@ -57,7 +57,7 @@ const HeroSection1 = ({ data,course_id
                     </p>
                   </p>
                 </div>
-        <div className="hidden md:block absolute bottom-0 left-0 w-full p-[3%]">
+        <div className="hidden md:block absolute bottom-0 left-0 w-full p-[45px]">
           <div className="w-full bg-[#525FE1] flex px-[5%] py-[2%] lg:rounded-2xl xl:rounded-[32px] 2xl:rounded-[48px] 2xl:mt-10 justify-between items-center">
             <div className="w-fit h-fit flex flex-col md:flex-row gap-4 md:gap-4 lg:gap-8 xl:gap-6 items-start md:items-center">
               <div className="w-fit flex flex-col lg:gap-2 xl:gap-3 2xl:gap-5 px-4 md:px-6 lg:px-8 xl:pl-4 border-r-2 border-white">
